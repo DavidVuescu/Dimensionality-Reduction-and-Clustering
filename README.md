@@ -79,8 +79,8 @@ See the provided **`requirements.txt`** for exact pinned versions.
 
 1. **Clone** or download this repository:
    ```bash
-   git clone https://github.com/YourUsername/my_project.git
-   cd my_project
+   git clone https://github.com/DavidVuescu/Dimensionality-Reduction-and-Clustering.git
+   cd Dimensionality-Reduction-and-Clustering
    ```
 2. **Create and activate a virtual environment**:
    ```bash
@@ -161,7 +161,7 @@ Here is a sample table showcasing results from **DBSCAN** and **KMeans** on raw 
 | DBSCAN     | N/A or 1 cluster (no score) | 0.48 (Silhouette) | 0.52 (Silhouette) |
 | KMeans     | 0.44 (Silhouette)           | 0.58 (Silhouette) | 0.55 (Silhouette) |
 
-**Outlier Analysis**: DBSCAN might label several points as `-1`. These can be visually highlighted in the scatter plots.
+**Outlier Analysis**: DBSCAN might label several points as `-1`. The scatter plots can highlight these visually.
 
 ---
 
